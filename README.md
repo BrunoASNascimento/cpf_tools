@@ -1,6 +1,8 @@
 # cpf_tools
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square)](https://www.python.org/)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/BrunoASNascimento/cpf_tools.svg?logo=lgtm&logoWidth=18&style=flat-square)](https://lgtm.com/projects/g/BrunoASNascimento/cpf_tools/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/BrunoASNascimento/cpf_tools.svg?logo=lgtm&logoWidth=18&style=flat-square)](https://lgtm.com/projects/g/BrunoASNascimento/cpf_tools/context:python)
 
 Biblioteca com ferramentas para auxiliar na checagem, formatação etc. de CPFs.
 
