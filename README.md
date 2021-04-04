@@ -15,11 +15,11 @@ Biblioteca com ferramentas para auxiliar na checagem, formatação etc. de CPFs.
 
 - _cpf-tools.**cpf_int_validation**(cpf: int) -> bool_:
 
-Essas função recebe um valor inteiro e verifica se o digito verificador do CPF é verdadeiro (True) ou falso (False).
+Essa função recebe um valor inteiro e verifica se o digito verificador do CPF é verdadeiro (True) ou falso (False).
 
 - _cpf-tools.**cpf_str_validation**(cpf: str) -> bool_:
 
-Essas função recebe um valor string e verifica se o digito verificador do CPF é verdadeiro (True) ou falso (False).
+Essa função recebe um valor string e verifica se o digito verificador do CPF é verdadeiro (True) ou falso (False).
 
 - _cpf-tools.**cpf_format**(cpf: Union[int, str, float]) -> str_:
 
