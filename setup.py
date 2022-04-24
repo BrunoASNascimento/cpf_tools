@@ -1,13 +1,13 @@
 from setuptools import setup
 
-with open("README.md", 'r') as fh:
-    long_description = fh.read()
+with open("README.md", 'r', encoding='utf-8') as file:
+    long_description = file.read()
 
 setup(
     name='cpf_tools',
-    version='1.0.0',
+    version='1.5.1',
     author='Bruno Nascimento',
-    author_email='bruno_freddy@hotmail.com',
+    author_email='bruno-asn@outlook.com',
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=['cpf_tools'],
