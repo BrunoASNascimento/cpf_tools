@@ -45,7 +45,7 @@ def cpf_str_validation(cpf: str) -> bool:
     Returns:
         bool: If CPF real True else False.
     """
-    clean_cpf = cpf.replace('.', '').replace('-', '')
+    clean_cpf = cpf_format(cpf).replace('.', '').replace('-', '')
 
     try:
         return cpf_int_validation(cpf=int(clean_cpf))
