@@ -8,10 +8,14 @@ class TestCpf(unittest.TestCase):
         self.assertEqual(cpf_int_validation(cpf=51274711835), True)
         self.assertEqual(cpf_int_validation(cpf=1274711835), False)
         self.assertEqual(cpf_int_validation(cpf=127479811835), False)
+        self.assertEqual(cpf_int_validation(cpf="127479811835"), False)
+        self.assertEqual(cpf_int_validation(cpf="51274711835"), True)
 
     def test_cpf_str_validation(self):
         self.assertEqual(cpf_str_validation(cpf='51274711835'), True)
         self.assertEqual(cpf_str_validation(cpf='1274711835'), False)
+        self.assertEqual(cpf_str_validation(cpf=51274711835), True)
+        self.assertEqual(cpf_str_validation(cpf=1274711835), False)
 
     def test_cpf_format(self):
         self.assertEqual(
