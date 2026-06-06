@@ -23,17 +23,6 @@ class TestClass:
 
         # Then
         assert result == output_value
-        
-    def test_when_str_input_cpf_format(self):
-        # Given
-        input_value = '5*7das4.71dads1.8-35'
-        output_value = '005.747.118-35'
-
-        # When
-        result = cpf_format(input_value)
-
-        # Then
-        assert result == output_value
 
     def test_when_str_input_cpf_format(self):
         # Given
@@ -56,7 +45,18 @@ class TestClass:
 
         # Then
         assert result == output_value
-    
+
+    def test_when_str_input_cpf_format(self):
+        # Given
+        input_value = '5*7das4.71dads1.8-35'
+        output_value = '005.747.118-35'
+
+        # When
+        result = cpf_format(input_value)
+
+        # Then
+        assert result == output_value
+
     def test_when_str_input_cpf_format(self):
         # Given
         input_value = '5*7das4.71dads1.8-35'
